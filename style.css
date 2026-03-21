@@ -74,7 +74,7 @@ flex-direction: row-reverse;
     /* стили для мобильного */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .card {
         flex-direction: column;
     }
