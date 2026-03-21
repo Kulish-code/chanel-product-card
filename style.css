@@ -74,65 +74,8 @@ flex-direction: row-reverse;
     /* стили для мобильного */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 375px) {
+    .card {
+        flex-direction: column;
+    }
+}
